@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/HA-Construction/static/css/main.8395556e.css",
+    "main.js": "/HA-Construction/static/js/main.5df7048c.js",
+    "static/js/453.9b2783d6.chunk.js": "/HA-Construction/static/js/453.9b2783d6.chunk.js",
+    "static/media/Sidewalk.jpg": "/HA-Construction/static/media/Sidewalk.a2c772e7d9380c7f6b6f.jpg",
+    "static/media/Painting.jpg": "/HA-Construction/static/media/Painting.37c814be7d4e68dca927.jpg",
+    "static/media/Brick.jpg": "/HA-Construction/static/media/Brick.f9d579c604f50a2249aa.jpg",
+    "static/media/Siding.jpg": "/HA-Construction/static/media/Siding.ce7bf490290b815dc12c.jpg",
+    "static/media/Roof.jpg": "/HA-Construction/static/media/Roof.9d63952a8450a06ea8fe.jpg",
+    "static/media/carpenter.jpg": "/HA-Construction/static/media/carpenter.7e10d4720a50e9096015.jpg",
+    "static/media/construction.jpg": "/HA-Construction/static/media/construction.ec04eecb14b6775a7447.jpg",
+    "static/media/smile.jpg": "/HA-Construction/static/media/smile.87f3edb1b67d8a2ad9d4.jpg",
+    "static/media/Stairs.jpg": "/HA-Construction/static/media/Stairs.411b5f60739cdb320a91.jpg",
+    "static/media/truck.jpg": "/HA-Construction/static/media/truck.8afd1be080684626d062.jpg",
+    "static/media/fa-solid-900.ttf": "/HA-Construction/static/media/fa-solid-900.bacd5de623fb563b961a.ttf",
+    "static/media/fa-brands-400.ttf": "/HA-Construction/static/media/fa-brands-400.60127e352b7a11f7f1bc.ttf",
+    "static/media/fa-solid-900.woff2": "/HA-Construction/static/media/fa-solid-900.4d986b00ff9ca3828fbd.woff2",
+    "static/media/fa-brands-400.woff2": "/HA-Construction/static/media/fa-brands-400.455ea818179b4def0c43.woff2",
+    "static/media/fa-regular-400.ttf": "/HA-Construction/static/media/fa-regular-400.eb91f7b948a42799f678.ttf",
+    "static/media/fa-regular-400.woff2": "/HA-Construction/static/media/fa-regular-400.21cb8f55d8e0c5b89751.woff2",
+    "static/media/fa-v4compatibility.ttf": "/HA-Construction/static/media/fa-v4compatibility.c8e090db312b0bea2aa2.ttf",
+    "static/media/fa-v4compatibility.woff2": "/HA-Construction/static/media/fa-v4compatibility.cf7f5903d06b79ad60f1.woff2",
+    "index.html": "/HA-Construction/index.html",
+    "main.8395556e.css.map": "/HA-Construction/static/css/main.8395556e.css.map",
+    "main.5df7048c.js.map": "/HA-Construction/static/js/main.5df7048c.js.map",
+    "453.9b2783d6.chunk.js.map": "/HA-Construction/static/js/453.9b2783d6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8395556e.css",
+    "static/js/main.5df7048c.js"
+  ]
+}
