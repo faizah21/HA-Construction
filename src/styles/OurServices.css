@@ -1,0 +1,86 @@
+.services-section {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.services-section h2 {
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.service {
+  background-color: white;
+  margin: 15px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  flex: 1 1 300px;
+  max-width: 300px;
+  text-align: left;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.service:hover {
+  transform: translateY(-10px);
+}
+
+.service-icon {
+  font-size: 3rem;
+  color: #883a23;
+  margin-bottom: 20px;
+}
+
+.service h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.service .underline {
+  width: 50px;
+  height: 3px;
+  background-color: #ff5722;
+  margin-bottom: 10px;
+}
+
+.service p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.read-more {
+  padding: 10px 20px;
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+}
+
+.read-more:hover {
+  background-color: #e64a19;
+  transform: translateY(-3px);
+}
+
+.read-more::after {
+  content: " \2192"; /* Arrow symbol */
+  margin-left: 10px;
+  transition: margin-left 0.3s ease;
+}
+
+.read-more:hover::after {
+  margin-left: 15px;
+}

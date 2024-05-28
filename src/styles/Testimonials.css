@@ -1,0 +1,96 @@
+.testimonials-section {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+  position: relative;
+}
+
+.testimonials-section h2 {
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+}
+
+.testimonials-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center the content */
+  gap: 20px; /* Add gap to ensure arrows don't overlap */
+}
+
+.testimonials-container {
+  display: flex;
+  overflow-x: scroll;
+  gap: 20px;
+  padding: 20px;
+  scroll-behavior: smooth;
+  flex: 0 0 70%; /* Adjust width to display 3 testimonials */
+}
+
+.testimonial {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  min-width: 300px;
+  flex: 0 0 auto;
+  text-align: center;
+}
+
+.testimonial-icon {
+  font-size: 2rem;
+  color: #ff5722;
+  margin-bottom: 10px;
+}
+
+.testimonial p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.testimonial h4 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.scroll-button {
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.scroll-button.left {
+  left: 10px;
+}
+
+.scroll-button.right {
+  right: 10px;
+}
+
+.scroll-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+@media (max-width: 768px) {
+  .testimonials-container {
+    padding: 10px;
+    flex: 0 0 90%; /* Adjust width for smaller screens */
+  }
+
+  .testimonial {
+    min-width: 250px;
+  }
+
+  .scroll-button {
+    display: none;
+  }
+}
